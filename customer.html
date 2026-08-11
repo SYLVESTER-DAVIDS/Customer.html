@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport3" content="width=device-width, initial-scale1.0">
+        <title>syllih web</title>
+    </head>
+
+    <style>
+
+        header{
+            background: yellowgreen;
+            color: white;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+        .h1{
+            color: blue;
+            background: #899;
+        }
+
+        body{
+            background: white;
+            margin: 0;
+            color: black;
+            margin: 0;
+            text-align: center;
+            padding: 0;
+        }
+
+        .gallary{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 200px;
+        }
+
+        .gallary img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        nav{
+            background: yellow;
+            color: black;
+            position: sticky;
+            z-index: 100;
+            padding: 10px;
+            top: 0;
+            text-align: center;
+        }
+        .btn{
+            background: #899;
+            color: wheat;
+            
+        }
+        button{
+            background: #4caf4c;
+            color:  black;
+            cursor: pointer;
+            padding: 3px;
+            border-radius: 20px;
+
+        }
+        footer{
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+
+        }
+    </style>
+
+    <header>
+        <section id="home">
+        <h1 class="section-title">Welcome To Syllih Website</h1>
+        <h2>We operate from monday to sunday</h2>
+        <h3>We make sure customer satisfaction</h3>
+        </section>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+    <body>
+        <section>
+        <h2>What we offer:</h2>
+        <p>Free classes</p>
+        <p>Attachment</p>
+        <p>live web building</p>
+        <p>Logo design</p>
+        </section>
+        
+            <form action="/book" method="post">
+                <h2>Book Now:</h2>
+                <input type="text" name="full_name" placeholder="Enter full name " required><br><br>
+                <input type="text" name="email" placeholder="Email" required><br><br>
+                <input type="text" name="phone" placeholder="phone number" required><br><br>
+                <label>Date checkin</label>
+                <input type="date" name="checkin" required><br><br>
+                    <label>Date chekout</label>
+                    <input type="date" name="checkout" required><br><br>
+                <div class="flex-box">
+                    <button type="submit">Book Now</button>
+                    </div>
+                    </form>
+                <details>
+                    <option>Chrome</option>
+                        <option>Firefox</option>
+                </details>
+                </p>
+        </section>
+        <section id="contact">
+            <h2 class="section-title"> More Info:</h2>
+            <p>Call; 0789898990</p>
+            <p>Email;odhiambosylvester437@gmail.com</p>
+            <p>Location;Kisii</p>
+
+            <h1>To Order:!!</h1>
+            <a href="https://wa.me/254726777918"
+            target="_blank">Chat with us on WhatsApp</a>
+        </section>
+        <section id="about">
+            <h2 class="section-title">About Us:</h2>
+            <p>We started this project in the early 2024 with only four devs</p>
+            <p>The customer satisfaction is our priority</p>
+            <details>
+                <p>We are a Convenient company which ensure Customer satisfaction</p>
+            </details>
+            
+        </section>
+    </body>
+
+    <section>
+        <h1>Gallary:!!</h1>
+        <div class="gallary">
+        <img src="1781511486631.jpg" alt="hotel room">
+        <img src="1781511492150.jpg" alt="hotel rooom">
+        <img src="1781511496349.jpg" alt="hotel room">
+        <img src="1781511499425.jpg" alt="hotel room">
+        <img src="1781511505281.jpg" alt="hotel room">
+        <img src="1781511541729.jpg" alt="hotel room">
+        <img src="1781511519675.jpg" alt="hotel room">
+        <img src="39999.jpg" alt="human being">
+        <img src="1000019045.jpg" alt="human being">
+        </div>
+    </section>
+    <footer>
+        <h1>Thanks and stay connected with our web</h1>
+        </footer>
+</html>
